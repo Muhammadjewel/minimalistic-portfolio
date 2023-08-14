@@ -150,7 +150,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1164px;
+  max-width: 1180px;
   padding-left: 32px;
   padding-right: 32px;
   margin-left: auto;
@@ -163,6 +163,113 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+
+/* LOGO */
+.logo {
+  display: block;
+  text-decoration: none;
+}
+
+.logo:hover {
+  opacity: 0.8;
+}
+
+.logo:active {
+  opacity: 0.6;
+}
+
+.logo__img {
+  display: block;
+  width: 61px;
+  height: 32px;
+}
+
+
+/* SITENAV */
+.sitenav__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.sitenav__link {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.sitenav__item--active .sitenav__link {
+  color: var(--green);
+}
+
+.sitenav__link:hover {
+  opacity: 0.8;
+}
+
+.sitenav__link:active {
+  opacity: 0.6;
+}
+
+
+/* SITE-HEADER */
+.site-header {
+  position: relative;
+  z-index: 1;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  margin-right: auto;
+}
+
+.site-header__sitenav {
+  display: none;
+}
+
+.site-header--open .site-header__sitenav {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 32px;
+  top: 88px;
+  min-width: 223px;
+  max-width: calc(100% - 64px);
+  padding: 40px;
+  background-color: var(--grey-blue);
+}
+
+.site-header__toggler {
+  display: block;
+  width: 24px;
+  height: 19px;
+  border: 0;
+  background-color: transparent;
+  background-image: url("../img/hamburger-menu.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  cursor: pointer;
+}
+
+.site-header--open .site-header__toggler {
+  background-image: url("../img/close.svg");
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
@@ -171,4 +278,52 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .site-header {
+    padding-top: 64px;
+    padding-bottom: 47px;
+  }
+
+  .site-header__sitenav,
+  .site-header--open .site-header__sitenav {
+    position: static;
+    display: block;
+    padding: 0;
+    background-color: transparent;
+  }
+
+  .site-header__toggler {
+    display: none;
+  }
+
+  .sitenav--site-header .sitenav__list {
+    display: flex;
+  }
+
+  .sitenav--site-header .sitenav__item:not(:last-child) {
+    margin-bottom: 0;
+    margin-right: 42px;
+  }
+
+  .sitenav--site-header .sitenav__link {
+    color: var(--grey-blue);
+  }
+
+  .sitenav__item--active .sitenav__link {
+    color: var(--green);
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  .site-header {
+    padding-bottom: 54px;
+  }
 }
