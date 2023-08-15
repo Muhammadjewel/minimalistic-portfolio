@@ -219,6 +219,61 @@ select:-webkit-autofill:focus {
 }
 
 
+/* CTA-BUTTON */
+.cta-button {
+  display: inline-block;
+  min-width: 200px;
+  padding: 0;
+  border: 0;
+  background-color: var(--dark-blue);
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: var(--green);
+}
+
+.cta-button:active {
+  opacity: 0.6;
+}
+
+.cta-button:disabled {
+  opacity: 0.2;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.cta-button__inner {
+  display: flex;
+}
+
+.cta-button__append {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: var(--green);
+}
+
+.cta-button:hover .cta-button__append {
+  color: #fff;
+}
+
+.cta-button__text {
+  flex-grow: 1;
+  padding: 17px;
+  font-size: 12px;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+
 /* SITE-HEADER */
 .site-header {
   position: relative;
