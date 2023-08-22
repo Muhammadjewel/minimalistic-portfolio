@@ -286,6 +286,7 @@ select:-webkit-autofill:focus {
   color: var(--grey-blue);
   text-transform: uppercase;
   letter-spacing: 2px;
+  white-space: nowrap;
   cursor: pointer;
 }
 
