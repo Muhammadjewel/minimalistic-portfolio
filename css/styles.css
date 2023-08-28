@@ -305,6 +305,29 @@ select:-webkit-autofill:focus {
 }
 
 
+/* SOCIALS */
+.socials__list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.socials__item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.socials__link {
+  display: block;
+  color: #fff;
+}
+
+.socials__icon {
+  display: block;
+}
+
+
 /* IMG-TEXT-INFO */
 .img-text-info__picture {
   display: block;
