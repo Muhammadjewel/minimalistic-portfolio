@@ -323,6 +323,10 @@ select:-webkit-autofill:focus {
   color: #fff;
 }
 
+.socials--dark .socials__link {
+  color: var(--grey-blue);
+}
+
 .socials__icon {
   display: block;
 }
