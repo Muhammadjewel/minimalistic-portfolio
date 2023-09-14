@@ -738,6 +738,28 @@ select:-webkit-autofill:focus {
   resize: vertical;
 }
 
+.form__field:not(:focus):not(:placeholder-shown):valid {
+  border-color: var(--green);
+}
+
+.form__field:not(:focus):not(:placeholder-shown):invalid {
+  border-color: var(--red);
+}
+
+.form__error-message {
+  display: none;
+  margin-top: 4px;
+  font-size: 0.625rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--red);
+}
+
+.form__field:not(:focus):not(:placeholder-shown):invalid ~ .form__error-message {
+  display: block;
+}
+
 
 /* SOLID BUTTON */
 .solid-button {
