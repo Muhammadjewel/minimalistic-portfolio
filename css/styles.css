@@ -96,8 +96,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: var(--body-font-family);
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1rem;
+  line-height: 187.5%;
   background-color: var(--light-grey);
   color: var(--grey-blue);
 }
@@ -150,7 +150,7 @@ select:-webkit-autofill:focus {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1180px;
+  max-width: 73.75rem;
   padding-left: 32px;
   padding-right: 32px;
   margin-left: auto;
@@ -202,11 +202,11 @@ select:-webkit-autofill:focus {
 
 .sitenav__link {
   display: block;
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #fff;
   text-decoration: none;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   text-align: center;
 }
 
@@ -226,7 +226,7 @@ select:-webkit-autofill:focus {
 /* CTA-BUTTON */
 .cta-button {
   display: inline-block;
-  min-width: 200px;
+  min-width: 12.5rem;
   padding: 0;
   border: 0;
   background-color: var(--dark-blue);
@@ -270,10 +270,10 @@ select:-webkit-autofill:focus {
 .cta-button__text {
   flex-grow: 1;
   padding: 17px;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: normal;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   text-align: center;
 }
 
@@ -283,13 +283,13 @@ select:-webkit-autofill:focus {
   display: inline-block;
   padding: 16px 32px;
   border: 1px solid var(--grey-blue);
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: normal;
   text-decoration: none;
   background-color: transparent;
   color: var(--grey-blue);
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   white-space: nowrap;
   cursor: pointer;
 }
@@ -375,9 +375,9 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 24px;
   font-family: var(--accent-font-family);
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  font-size: 2.5rem;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
 }
 
 .img-text-info--index-about .img-text-info__title {
@@ -387,7 +387,7 @@ select:-webkit-autofill:focus {
 .img-text-info__description {
   margin-top: 0;
   margin-bottom: 24px;
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 2;
 }
 
@@ -431,8 +431,8 @@ select:-webkit-autofill:focus {
   z-index: 1;
   right: 32px;
   top: 88px;
-  min-width: 223px;
-  max-width: calc(100% - 64px);
+  min-width: 13.9375rem;
+  max-width: calc(100% - 4rem);
   padding: 40px;
   background-color: var(--grey-blue);
 }
@@ -473,9 +473,9 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 32px;
   font-family: var(--accent-font-family);
-  font-size: 40px;
+  font-size: 2.5rem;
   line-height: 1.05;
-  letter-spacing: -0.357px;
+  letter-spacing: -0.02231rem;
 }
 
 
@@ -500,9 +500,9 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 40px;
   font-family: var(--accent-font-family);
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  font-size: 2.5rem;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
 }
 
 
@@ -543,22 +543,22 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 24px;
   font-family: var(--accent-font-family);
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  font-size: 2.5rem;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
 }
 
 .project-meta__description {
   margin-top: 0;
   margin-bottom: 24px;
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .project-meta__tags {
   margin-bottom: 24px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 187.5%;
   color: var(--green);
 }
 
@@ -572,9 +572,9 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 28px;
   font-family: var(--accent-font-family);
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 400;
-  line-height: 42px;
+  line-height: 105%;
 }
 
 .project-details__heading--static-previews {
@@ -665,8 +665,8 @@ select:-webkit-autofill:focus {
 
 .page-controls__title {
   font-family: var(--accent-font-family);
-  font-size: 32px;
-  line-height: 36px;
+  font-size: 2rem;
+  line-height: 112.5%;
   letter-spacing: -0.286px;
 }
 
@@ -686,9 +686,9 @@ select:-webkit-autofill:focus {
   margin-top: 0;
   margin-bottom: 24px;
   font-family: var(--accent-font-family);
-  font-size: 40px;
-  line-height: 42px;
-  letter-spacing: -0.357px;
+  font-size: 2.5rem;
+  line-height: 105%;
+  letter-spacing: -0.02231rem;
 }
 
 .two-column-section__content {
@@ -715,9 +715,9 @@ select:-webkit-autofill:focus {
 .form__label {
   align-self: flex-start;
   margin-bottom: 8px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 700;
-  line-height: 30px;
+  line-height: 187.5%;
   color: var(--grey-blue);
   opacity: 0.8;
 }
@@ -729,8 +729,8 @@ select:-webkit-autofill:focus {
   border: 1px solid transparent;
   background-color: rgba(51, 50, 61, 0.1);
   color: var(--grey-blue);
-  font-size: 13px;
-  line-height: 30px;
+  font-size: 0.8125rem;
+  line-height: 187.5%;
 }
 
 .form__field--textarea {
@@ -766,9 +766,9 @@ select:-webkit-autofill:focus {
   display: inline-block;
   padding: 16px 24px;
   border: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: normal;
-  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
   background-color: var(--dark-blue);
   color: #fff;
   text-align: center;
@@ -819,19 +819,19 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 25em) {
   .project-hero__img {
     height: 170px;
   }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 31.25em) {
   .hero__img {
     height: 600px;
   }
 }
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 34.375em) {
   .img-text-info {
     display: flex;
     align-items: center;
@@ -870,7 +870,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 43.75em) {
   .site-footer {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -902,7 +902,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 48em) {
   .container {
     padding-left: 40px;
     padding-right: 40px;
@@ -1108,13 +1108,13 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 56.25em) {
   .project-hero__img {
     height: 400px;
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 64em) {
   .main-content--contact-page {
     padding-bottom: 60px;
   }
@@ -1129,7 +1129,7 @@ only screen and (                min-resolution: 2dppx) {
 
   .hero__heading {
     margin-bottom: 56px;
-    font-size: 50px;
+    font-size: 3.125rem;
     line-height: 1;
   }
 
@@ -1162,7 +1162,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
-@media only screen and (min-width: 1180px) {
+@media only screen and (min-width: 73.75em) {
   .site-header {
     padding-bottom: 54px;
   }
@@ -1194,8 +1194,8 @@ only screen and (                min-resolution: 2dppx) {
   }
 
   .img-text-info__description {
-    font-size: 16px;
-    line-height: 30px;
+    font-size: 1rem;
+    line-height: 187.5%;
   }
 
   .contact-cta {
@@ -1236,7 +1236,7 @@ only screen and (                min-resolution: 2dppx) {
 
   .project-meta__tags {
     margin-bottom: 32px;
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .project-meta__tag-item:not(:last-child) {
